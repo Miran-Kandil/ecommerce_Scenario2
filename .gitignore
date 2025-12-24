@@ -1,0 +1,67 @@
+# ----- Maven -----
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ----- Build output & classes -----
+/bin/
+*.class
+
+# ----- Eclipse -----
+.classpath
+.project
+.settings/
+.recommenders/
+
+# ----- IntelliJ / JetBrains -----
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ----- VS Code -----
+.vscode/
+
+# ----- Logs, reports, coverage -----
+*.log
+coverage/
+jacoco.exec
+/target/HtmlReports.html
+/target/site/
+test-output/
+reports/
+*.csv
+
+# ----- Cucumber, TestNG, JUnit artifacts -----
+/target/cucumber-html-reports/
+target/cucumber.json
+target/*.html
+
+# ----- Resources & generated sources -----
+/generated-sources/
+/generated-test-sources/
+
+# ----- OS files -----
+.DS_Store
+Thumbs.db
+
+# ----- Secrets / env -----
+.env
+*.secret
+credentials.properties
+
+# ----- Node / frontend (if any) -----
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ----- Large files (use Git LFS instead) -----
+*.zip
+*.tar.gz
+*.jar
+*.war
+*.ear
+
+# ----- Misc -----
+*.iml
+.settings/
